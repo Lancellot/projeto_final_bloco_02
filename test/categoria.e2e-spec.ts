@@ -6,7 +6,7 @@ import { AppModule } from '../src/app.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { CategoriaModule } from '../src/categoria/categoria.module';
 
-describe('CategoriaController (e2e)', () => {
+describe('Teste no modulo de categoria(e2e)', () => {
   let app: INestApplication<App>;
   let categoriaId: number;
 
